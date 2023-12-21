@@ -21,11 +21,6 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('Completion') {
-            steps {
-                echo 'Wazaaaap'
-            }
-        }
         stage('Clean up') {
             steps {
                 echo 'Cleanin up'
