@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Completion') {
             steps {
-                sh echo 'Wazaaaap'
+                echo 'Wazaaaap'
             }
         }
     }
