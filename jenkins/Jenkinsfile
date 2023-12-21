@@ -26,5 +26,10 @@ pipeline {
                 echo 'Wazaaaap'
             }
         }
+        stage('Clean up') {
+            steps {
+                echo 'Cleanin up'
+            }
+        }
     }
 }
