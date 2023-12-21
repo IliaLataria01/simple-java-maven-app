@@ -26,5 +26,10 @@ pipeline {
                 echo 'Cleanin up'
             }
         }
+        stage('Comletion') {
+            steps {
+                echo 'Completed'
+            }
+        }
     }
 }
